@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0695D5C4286B911E0008E07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5C3286B911E0008E07A /* AppDelegate.swift */; };
+		0695D5C6286B911E0008E07A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5C5286B911E0008E07A /* SceneDelegate.swift */; };
+		0695D5C8286B911E0008E07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5C7286B911E0008E07A /* ViewController.swift */; };
+		0695D5CB286B911E0008E07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0695D5C9286B911E0008E07A /* Main.storyboard */; };
+		0695D5CE286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5CC286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld */; };
+		0695D5D0286B91240008E07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0695D5CF286B91240008E07A /* Assets.xcassets */; };
+		0695D5D3286B91240008E07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0695D5D1286B91240008E07A /* LaunchScreen.storyboard */; };
+		0695D5DE286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5DD286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift */; };
+		0695D5E8286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5E7286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift */; };
+		0695D5EA286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5E9286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0695D5DA286B91260008E07A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0695D5B8286B911E0008E07A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0695D5BF286B911E0008E07A;
+			remoteInfo = "Kode Step Final Project KwK 2022";
+		};
+		0695D5E4286B91260008E07A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0695D5B8286B911E0008E07A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0695D5BF286B911E0008E07A;
+			remoteInfo = "Kode Step Final Project KwK 2022";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0695D5C0286B911E0008E07A /* Kode Step Final Project KwK 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kode Step Final Project KwK 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0695D5C3286B911E0008E07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0695D5C5286B911E0008E07A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0695D5C7286B911E0008E07A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0695D5CA286B911E0008E07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0695D5CD286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kode_Step_Final_Project_KwK_2022.xcdatamodel; sourceTree = "<group>"; };
+		0695D5CF286B91240008E07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0695D5D2286B91240008E07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0695D5D4286B91240008E07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0695D5D9286B91260008E07A /* Kode Step Final Project KwK 2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kode Step Final Project KwK 2022Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0695D5DD286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kode_Step_Final_Project_KwK_2022Tests.swift; sourceTree = "<group>"; };
+		0695D5E3286B91260008E07A /* Kode Step Final Project KwK 2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kode Step Final Project KwK 2022UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0695D5E7286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kode_Step_Final_Project_KwK_2022UITests.swift; sourceTree = "<group>"; };
+		0695D5E9286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0695D5BD286B911E0008E07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0695D5D6286B91260008E07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0695D5E0286B91260008E07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0695D5B7286B911E0008E07A = {
+			isa = PBXGroup;
+			children = (
+				0695D5C2286B911E0008E07A /* Kode Step Final Project KwK 2022 */,
+				0695D5DC286B91260008E07A /* Kode Step Final Project KwK 2022Tests */,
+				0695D5E6286B91260008E07A /* Kode Step Final Project KwK 2022UITests */,
+				0695D5C1286B911E0008E07A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0695D5C1286B911E0008E07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0695D5C0286B911E0008E07A /* Kode Step Final Project KwK 2022.app */,
+				0695D5D9286B91260008E07A /* Kode Step Final Project KwK 2022Tests.xctest */,
+				0695D5E3286B91260008E07A /* Kode Step Final Project KwK 2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0695D5C2286B911E0008E07A /* Kode Step Final Project KwK 2022 */ = {
+			isa = PBXGroup;
+			children = (
+				0695D5C3286B911E0008E07A /* AppDelegate.swift */,
+				0695D5C5286B911E0008E07A /* SceneDelegate.swift */,
+				0695D5C7286B911E0008E07A /* ViewController.swift */,
+				0695D5C9286B911E0008E07A /* Main.storyboard */,
+				0695D5CF286B91240008E07A /* Assets.xcassets */,
+				0695D5D1286B91240008E07A /* LaunchScreen.storyboard */,
+				0695D5D4286B91240008E07A /* Info.plist */,
+				0695D5CC286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld */,
+			);
+			path = "Kode Step Final Project KwK 2022";
+			sourceTree = "<group>";
+		};
+		0695D5DC286B91260008E07A /* Kode Step Final Project KwK 2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0695D5DD286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift */,
+			);
+			path = "Kode Step Final Project KwK 2022Tests";
+			sourceTree = "<group>";
+		};
+		0695D5E6286B91260008E07A /* Kode Step Final Project KwK 2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0695D5E7286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift */,
+				0695D5E9286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift */,
+			);
+			path = "Kode Step Final Project KwK 2022UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0695D5BF286B911E0008E07A /* Kode Step Final Project KwK 2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0695D5ED286B91260008E07A /* Build configuration list for PBXNativeTarget "Kode Step Final Project KwK 2022" */;
+			buildPhases = (
+				0695D5BC286B911E0008E07A /* Sources */,
+				0695D5BD286B911E0008E07A /* Frameworks */,
+				0695D5BE286B911E0008E07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kode Step Final Project KwK 2022";
+			productName = "Kode Step Final Project KwK 2022";
+			productReference = 0695D5C0286B911E0008E07A /* Kode Step Final Project KwK 2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0695D5D8286B91260008E07A /* Kode Step Final Project KwK 2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0695D5F0286B91260008E07A /* Build configuration list for PBXNativeTarget "Kode Step Final Project KwK 2022Tests" */;
+			buildPhases = (
+				0695D5D5286B91260008E07A /* Sources */,
+				0695D5D6286B91260008E07A /* Frameworks */,
+				0695D5D7286B91260008E07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0695D5DB286B91260008E07A /* PBXTargetDependency */,
+			);
+			name = "Kode Step Final Project KwK 2022Tests";
+			productName = "Kode Step Final Project KwK 2022Tests";
+			productReference = 0695D5D9286B91260008E07A /* Kode Step Final Project KwK 2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0695D5E2286B91260008E07A /* Kode Step Final Project KwK 2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0695D5F3286B91260008E07A /* Build configuration list for PBXNativeTarget "Kode Step Final Project KwK 2022UITests" */;
+			buildPhases = (
+				0695D5DF286B91260008E07A /* Sources */,
+				0695D5E0286B91260008E07A /* Frameworks */,
+				0695D5E1286B91260008E07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0695D5E5286B91260008E07A /* PBXTargetDependency */,
+			);
+			name = "Kode Step Final Project KwK 2022UITests";
+			productName = "Kode Step Final Project KwK 2022UITests";
+			productReference = 0695D5E3286B91260008E07A /* Kode Step Final Project KwK 2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0695D5B8286B911E0008E07A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0695D5BF286B911E0008E07A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0695D5D8286B91260008E07A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0695D5BF286B911E0008E07A;
+					};
+					0695D5E2286B91260008E07A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0695D5BF286B911E0008E07A;
+					};
+				};
+			};
+			buildConfigurationList = 0695D5BB286B911E0008E07A /* Build configuration list for PBXProject "Kode Step Final Project KwK 2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0695D5B7286B911E0008E07A;
+			productRefGroup = 0695D5C1286B911E0008E07A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0695D5BF286B911E0008E07A /* Kode Step Final Project KwK 2022 */,
+				0695D5D8286B91260008E07A /* Kode Step Final Project KwK 2022Tests */,
+				0695D5E2286B91260008E07A /* Kode Step Final Project KwK 2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0695D5BE286B911E0008E07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0695D5D3286B91240008E07A /* LaunchScreen.storyboard in Resources */,
+				0695D5D0286B91240008E07A /* Assets.xcassets in Resources */,
+				0695D5CB286B911E0008E07A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0695D5D7286B91260008E07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0695D5E1286B91260008E07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0695D5BC286B911E0008E07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0695D5C8286B911E0008E07A /* ViewController.swift in Sources */,
+				0695D5C4286B911E0008E07A /* AppDelegate.swift in Sources */,
+				0695D5C6286B911E0008E07A /* SceneDelegate.swift in Sources */,
+				0695D5CE286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0695D5D5286B91260008E07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0695D5DE286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0695D5DF286B91260008E07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0695D5EA286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift in Sources */,
+				0695D5E8286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0695D5DB286B91260008E07A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0695D5BF286B911E0008E07A /* Kode Step Final Project KwK 2022 */;
+			targetProxy = 0695D5DA286B91260008E07A /* PBXContainerItemProxy */;
+		};
+		0695D5E5286B91260008E07A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0695D5BF286B911E0008E07A /* Kode Step Final Project KwK 2022 */;
+			targetProxy = 0695D5E4286B91260008E07A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0695D5C9286B911E0008E07A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0695D5CA286B911E0008E07A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0695D5D1286B91240008E07A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0695D5D2286B91240008E07A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0695D5EB286B91260008E07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0695D5EC286B91260008E07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0695D5EE286B91260008E07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kode Step Final Project KwK 2022/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.Kode-Step-Final-Project-KwK-2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0695D5EF286B91260008E07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kode Step Final Project KwK 2022/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.Kode-Step-Final-Project-KwK-2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0695D5F1286B91260008E07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.Kode-Step-Final-Project-KwK-2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kode Step Final Project KwK 2022.app/Kode Step Final Project KwK 2022";
+			};
+			name = Debug;
+		};
+		0695D5F2286B91260008E07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.Kode-Step-Final-Project-KwK-2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kode Step Final Project KwK 2022.app/Kode Step Final Project KwK 2022";
+			};
+			name = Release;
+		};
+		0695D5F4286B91260008E07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.Kode-Step-Final-Project-KwK-2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kode Step Final Project KwK 2022";
+			};
+			name = Debug;
+		};
+		0695D5F5286B91260008E07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.Kode-Step-Final-Project-KwK-2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kode Step Final Project KwK 2022";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0695D5BB286B911E0008E07A /* Build configuration list for PBXProject "Kode Step Final Project KwK 2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0695D5EB286B91260008E07A /* Debug */,
+				0695D5EC286B91260008E07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0695D5ED286B91260008E07A /* Build configuration list for PBXNativeTarget "Kode Step Final Project KwK 2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0695D5EE286B91260008E07A /* Debug */,
+				0695D5EF286B91260008E07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0695D5F0286B91260008E07A /* Build configuration list for PBXNativeTarget "Kode Step Final Project KwK 2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0695D5F1286B91260008E07A /* Debug */,
+				0695D5F2286B91260008E07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0695D5F3286B91260008E07A /* Build configuration list for PBXNativeTarget "Kode Step Final Project KwK 2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0695D5F4286B91260008E07A /* Debug */,
+				0695D5F5286B91260008E07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0695D5CC286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0695D5CD286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodel */,
+			);
+			currentVersion = 0695D5CD286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodel */;
+			path = Kode_Step_Final_Project_KwK_2022.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0695D5B8286B911E0008E07A /* Project object */;
+}
