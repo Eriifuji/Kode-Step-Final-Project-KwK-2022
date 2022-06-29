@@ -17,6 +17,8 @@
 		0695D5DE286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5DD286B91260008E07A /* Kode_Step_Final_Project_KwK_2022Tests.swift */; };
 		0695D5E8286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5E7286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift */; };
 		0695D5EA286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0695D5E9286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift */; };
+		06E46D74286CCE6E00F2DA3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */; };
+		06E46D76286CD3E500F2DA3D /* ArrayInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */; };
 		B9EE42E3286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		0695D5E3286B91260008E07A /* Kode Step Final Project KwK 2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kode Step Final Project KwK 2022UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0695D5E7286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kode_Step_Final_Project_KwK_2022UITests.swift; sourceTree = "<group>"; };
 		0695D5E9286B91260008E07A /* Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kode_Step_Final_Project_KwK_2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayInfoViewController.swift; sourceTree = "<group>"; };
 		B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSubjectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,11 +111,13 @@
 				0695D5C5286B911E0008E07A /* SceneDelegate.swift */,
 				0695D5C7286B911E0008E07A /* ViewController.swift */,
 				0695D5C9286B911E0008E07A /* Main.storyboard */,
+				06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */,
+				06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */,
+				B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */,
 				0695D5CF286B91240008E07A /* Assets.xcassets */,
 				0695D5D1286B91240008E07A /* LaunchScreen.storyboard */,
 				0695D5D4286B91240008E07A /* Info.plist */,
 				0695D5CC286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld */,
-				B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */,
 			);
 			path = "Kode Step Final Project KwK 2022";
 			sourceTree = "<group>";
@@ -265,10 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0695D5C8286B911E0008E07A /* ViewController.swift in Sources */,
+				06E46D76286CD3E500F2DA3D /* ArrayInfoViewController.swift in Sources */,
 				B9EE42E3286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift in Sources */,
 				0695D5C4286B911E0008E07A /* AppDelegate.swift in Sources */,
 				0695D5C6286B911E0008E07A /* SceneDelegate.swift in Sources */,
 				0695D5CE286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld in Sources */,
+				06E46D74286CCE6E00F2DA3D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
