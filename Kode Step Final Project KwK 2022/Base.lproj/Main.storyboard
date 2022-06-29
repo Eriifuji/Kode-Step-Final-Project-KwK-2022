@@ -117,7 +117,7 @@
             </objects>
             <point key="canvasLocation" x="750.72463768115949" y="69.642857142857139"/>
         </scene>
-        <!--Title-->
+        <!--Array Info View Controller-->
         <scene sceneID="6dQ-wa-H1s">
             <objects>
                 <viewController id="B4f-yQ-qAw" customClass="ArrayInfoViewController" customModule="Kode_Step_Final_Project_KwK_2022" customModuleProvider="target" sceneMemberID="viewController">
@@ -132,8 +132,15 @@
                                 <color key="textColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7h7-YJ-uKV">
+                                <rect key="frame" x="37" y="485" width="152" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="43"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ofd-xh-hDq">
-                                <rect key="frame" x="37" y="143" width="340" height="341"/>
+                                <rect key="frame" x="37" y="143" width="340" height="322"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">An array is a group of values that are stored in an organized manner. When you need to keep track of an orderly list of items, they come in handy.  We can keep the names of numerous people or foods in one variable by using an array! Any type of element may be stored in an array, including integers, strings, and other arrays. A single array often contains a large number of things that are the same data type.</string>
@@ -153,21 +160,61 @@
                                     <segue destination="ytB-Sk-eGS" kind="show" id="QxM-pb-VKm"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 6.54.56 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="iTC-8w-4qF">
+                                <rect key="frame" x="9" y="444" width="397" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaW-b0-nQT">
+                                <rect key="frame" x="327" y="772" width="65" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.1529411765" green="0.34509803919999998" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="t1k-qP-S0s" kind="show" id="tgv-ri-0KN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a4f-dN-JGi"/>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.92941176469999998" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="Lhr-s8-Owu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddd-2A-rPc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1557" y="70"/>
+            <point key="canvasLocation" x="1556.521739130435" y="69.642857142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cT0-AU-xT1">
+            <objects>
+                <viewController id="t1k-qP-S0s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3tN-Hz-nmM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You try!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uuh-b5-1zv">
+                                <rect key="frame" x="121" y="64" width="172" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jvY-Od-Y7A"/>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.92941176469999998" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxd-Aq-B3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2304" y="70"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Fo7-Dj-SsA"/>
+        <segue reference="QxM-pb-VKm"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Screen Shot 2022-06-29 at 6.54.56 PM.png" width="985" height="319"/>
         <image name="Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png" width="289.5" height="215.5"/>
     </resources>
 </document>
