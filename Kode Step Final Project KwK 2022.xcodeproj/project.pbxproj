@@ -20,9 +20,6 @@
 		06E46D74286CCE6E00F2DA3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */; };
 		06E46D76286CD3E500F2DA3D /* ArrayInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */; };
 		B9EE42E3286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */; };
-		B9EE42E5286D058C00CFCAB5 /* Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B9EE42E4286D058C00CFCAB5 /* Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png */; };
-		B9FBF6BF286D0C9E00C7ADF3 /* Screen Shot 2022-06-29 at 6.41.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B9FBF6BE286D0C9E00C7ADF3 /* Screen Shot 2022-06-29 at 6.41.25 PM.png */; };
-		B9FBF6C1286D0FC600C7ADF3 /* Screen Shot 2022-06-29 at 6.54.56 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B9FBF6C0286D0FC600C7ADF3 /* Screen Shot 2022-06-29 at 6.54.56 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +57,6 @@
 		06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayInfoViewController.swift; sourceTree = "<group>"; };
 		B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSubjectViewController.swift; sourceTree = "<group>"; };
-		B9EE42E4286D058C00CFCAB5 /* Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png"; path = "../../../Downloads/Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png"; sourceTree = "<group>"; };
-		B9FBF6BE286D0C9E00C7ADF3 /* Screen Shot 2022-06-29 at 6.41.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-06-29 at 6.41.25 PM.png"; path = "../../../../../var/folders/zp/cmlq_jk944vdtmntp4mbsz_r0000gn/T/TemporaryItems/NSIRD_screencaptureui_DrjgC9/Screen Shot 2022-06-29 at 6.41.25 PM.png"; sourceTree = "<group>"; };
-		B9FBF6C0286D0FC600C7ADF3 /* Screen Shot 2022-06-29 at 6.54.56 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-06-29 at 6.54.56 PM.png"; path = "../../../../../var/folders/zp/cmlq_jk944vdtmntp4mbsz_r0000gn/T/TemporaryItems/NSIRD_screencaptureui_a5jw3s/Screen Shot 2022-06-29 at 6.54.56 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +114,6 @@
 				06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */,
 				06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */,
 				B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */,
-				B9FBF6C0286D0FC600C7ADF3 /* Screen Shot 2022-06-29 at 6.54.56 PM.png */,
-				B9FBF6BE286D0C9E00C7ADF3 /* Screen Shot 2022-06-29 at 6.41.25 PM.png */,
-				B9EE42E4286D058C00CFCAB5 /* Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png */,
 				0695D5CF286B91240008E07A /* Assets.xcassets */,
 				0695D5D1286B91240008E07A /* LaunchScreen.storyboard */,
 				0695D5D4286B91240008E07A /* Info.plist */,
@@ -254,9 +245,6 @@
 			files = (
 				0695D5D3286B91240008E07A /* LaunchScreen.storyboard in Resources */,
 				0695D5D0286B91240008E07A /* Assets.xcassets in Resources */,
-				B9FBF6C1286D0FC600C7ADF3 /* Screen Shot 2022-06-29 at 6.54.56 PM.png in Resources */,
-				B9EE42E5286D058C00CFCAB5 /* Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png in Resources */,
-				B9FBF6BF286D0C9E00C7ADF3 /* Screen Shot 2022-06-29 at 6.41.25 PM.png in Resources */,
 				0695D5CB286B911E0008E07A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
