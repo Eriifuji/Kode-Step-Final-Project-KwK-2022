@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -334,18 +334,27 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Enter">
                                     <color key="baseBackgroundColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="done:" destination="3KO-WJ-2UH" eventType="touchUpInside" id="pmG-Rl-aMp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IA6-R6-6x4">
                                 <rect key="frame" x="191" y="534" width="47" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Yes"/>
+                                <connections>
+                                    <action selector="yes:" destination="3KO-WJ-2UH" eventType="touchUpInside" id="AWy-G7-RuQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO7-OI-xM5">
                                 <rect key="frame" x="194" y="573" width="43" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="No"/>
+                                <connections>
+                                    <action selector="no:" destination="3KO-WJ-2UH" eventType="touchUpInside" id="Tug-Bz-sOF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Answer: var alphabetArray = [&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;E&quot;]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-jI-LAj">
                                 <rect key="frame" x="25" y="413" width="367" height="36"/>
@@ -399,6 +408,9 @@
                                 <buttonConfiguration key="configuration" style="plain">
                                     <imageReference key="image" image="arrowshape.turn.up.right" catalog="system" symbolScale="large"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="n:" destination="3KO-WJ-2UH" eventType="touchUpInside" id="2lb-OF-vKs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q5i-cJ-USo"/>
@@ -407,6 +419,12 @@
                     <navigationItem key="navigationItem" id="0Xn-jr-w2F"/>
                     <connections>
                         <outlet property="answerArray" destination="0qb-jI-LAj" id="ONk-6s-eMU"/>
+                        <outlet property="correct" destination="s13-Si-Tod" id="Mh9-Na-QdT"/>
+                        <outlet property="n" destination="kdp-eo-DOa" id="y4l-F5-bYN"/>
+                        <outlet property="no" destination="fO7-OI-xM5" id="k2G-LQ-gSB"/>
+                        <outlet property="woohoo" destination="Ski-EC-hZ4" id="QY1-TD-xqW"/>
+                        <outlet property="wrong" destination="Yl3-ml-mj2" id="ZuU-Go-nsL"/>
+                        <outlet property="yes" destination="IA6-R6-6x4" id="6Wj-pU-Vgl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62T-om-THb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -485,7 +503,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="sNg-AN-TOj"/>
-        <segue reference="8RC-SL-I9r"/>
+        <segue reference="LYP-Bo-n1w"/>
         <segue reference="eGE-Sa-nMy"/>
     </inferredMetricsTieBreakers>
     <resources>
