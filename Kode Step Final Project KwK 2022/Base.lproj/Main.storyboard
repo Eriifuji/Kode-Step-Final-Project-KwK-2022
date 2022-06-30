@@ -27,7 +27,7 @@
                                     <segue destination="ytB-Sk-eGS" kind="show" id="Fo7-Dj-SsA"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="rQv-fL-Iol">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="rQv-fL-Iol">
                                 <rect key="frame" x="-45" y="207" width="478" height="370"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhA-BX-php">
-                                <rect key="frame" x="127" y="333" width="160" height="43"/>
+                                <rect key="frame" x="127" y="356" width="160" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94901960784313721" green="0.51764705882352935" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -59,7 +59,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="div-Yk-bAK">
-                                <rect key="frame" x="138" y="511" width="140" height="43"/>
+                                <rect key="frame" x="138" y="534" width="140" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -68,7 +68,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uf-mx-3J5">
-                                <rect key="frame" x="138" y="422" width="140" height="43"/>
+                                <rect key="frame" x="138" y="445" width="140" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -80,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXm-nc-RO5">
-                                <rect key="frame" x="138" y="243" width="140" height="43"/>
+                                <rect key="frame" x="138" y="266" width="140" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -103,7 +103,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which subject do you need to brush up on?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFY-aJ-MFz">
                                 <rect key="frame" x="11" y="44" width="394" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="42"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.51764705879999995" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -211,10 +211,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QxM-pb-VKm"/>
+        <segue reference="Fo7-Dj-SsA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Array Example Picture" width="522" height="186"/>
-        <image name="Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1).png" width="289.5" height="215.5"/>
+        <image name="Screen_Shot_2022-06-29_at_5.54.03_PM-removebg-preview (1)" width="579" height="431"/>
     </resources>
 </document>
