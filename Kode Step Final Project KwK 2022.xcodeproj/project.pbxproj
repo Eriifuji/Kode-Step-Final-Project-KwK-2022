@@ -116,11 +116,11 @@
 				06E46D75286CD3E500F2DA3D /* ArrayInfoViewController.swift */,
 				06E46D73286CCE6E00F2DA3D /* HomeViewController.swift */,
 				B9EE42E2286CA9EA00CFCAB5 /* ChooseSubjectViewController.swift */,
+				B9FBF6C6286E598000C7ADF3 /* NowYouTryViewController.swift */,
 				0695D5CF286B91240008E07A /* Assets.xcassets */,
 				0695D5D1286B91240008E07A /* LaunchScreen.storyboard */,
 				0695D5D4286B91240008E07A /* Info.plist */,
 				0695D5CC286B911E0008E07A /* Kode_Step_Final_Project_KwK_2022.xcdatamodeld */,
-				B9FBF6C6286E598000C7ADF3 /* NowYouTryViewController.swift */,
 			);
 			path = "Kode Step Final Project KwK 2022";
 			sourceTree = "<group>";

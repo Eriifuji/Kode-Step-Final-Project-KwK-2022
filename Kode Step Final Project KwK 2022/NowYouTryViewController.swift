@@ -9,13 +9,7 @@ import UIKit
 
 class NowYouTryViewController: UIViewController {
 
-    @IBOutlet weak var answerArray: UILabel!
-    @IBOutlet weak var correct: UILabel!
-    @IBOutlet weak var yes: UIButton!
-    @IBOutlet weak var no: UIButton!
-    @IBOutlet weak var woohoo: UILabel!
-    @IBOutlet weak var wrong: UILabel!
-    @IBOutlet weak var n: UIButton!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,20 +17,22 @@ class NowYouTryViewController: UIViewController {
         correct.isHidden = true
         yes.isHidden = true
         no.isHidden = true
-        n.isHidden = true
+      
         woohoo.isHidden = true
         wrong.isHidden = true
 
     }
     @IBAction func done(_ sender: Any) {
         answerArray.isHidden = false
-        n.isHidden = false
-    }
-    @IBAction func n(_ sender: Any) {
+    
+        
         correct.isHidden = false
         yes.isHidden = false
         no.isHidden = false
+        
+       
     }
+
     @IBAction func yes(_ sender: Any) {
         woohoo.isHidden = false
         wrong.isHidden = true
@@ -57,4 +53,23 @@ class NowYouTryViewController: UIViewController {
     }
     */
 
+    @IBOutlet weak var answerArray: UILabel!
+    @IBOutlet weak var correct: UILabel!
+    @IBOutlet weak var yes: UIButton!
+    @IBOutlet weak var no: UIButton!
+    @IBOutlet weak var woohoo: UILabel!
+    @IBOutlet weak var wrong: UILabel!
+    @IBOutlet weak var n: UIButton!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
